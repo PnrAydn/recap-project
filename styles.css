@@ -40,6 +40,10 @@ main {
   padding: 10px 5px;
 }
 
+.question-card .toggle-answer {
+  margin-bottom: 20px;
+}
+
 .question-card2 {
   background-color: white;
   border: 1px solid;
