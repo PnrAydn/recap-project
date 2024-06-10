@@ -21,18 +21,39 @@ main {
 }
 
 .question-card {
-  background-color: wheat;
+  background-color: white;
   border: 1px solid;
   border-radius: 5px;
   padding: 20px;
+  text-align: center;
+  margin: 30px;
 }
 
 .question-card .tags {
   display: flex;
-  gap: 10px;
+  gap: 20px;
+  justify-content: center;
 }
 
 .question-card .tags span {
-  background-color: gray;
+  background-color: cadetblue;
   padding: 10px 5px;
+}
+
+.question-card2 {
+  background-color: white;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a:hover {
+  background-color: cadetblue;
 }
