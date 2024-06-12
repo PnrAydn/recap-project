@@ -12,26 +12,41 @@
     </header>
 
     <main>
-      <div class="question-card bookmarked">
+      <article class="question-card bookmarked">
         <p>Lorem Ipsum dolor sit?</p>
-        <button class="toggle-answer">Show Answer</button>
-
-        <p class="answer" style="display: none">Lorem ipsum dolor sit.</p>
-        <div class="tags">
-          <span>#html</span>
-          <span>#flexbox</span>
-          <span>#css</span>
-        </div>
-      </div>
-      <div class="question-card2">
+        <button
+          class="toggle-answer"
+          aria-label="Show Answer"
+          aria-expanded="false"
+          aria-controls="answer1"
+        >
+          Show Answer
+        </button>
+        <p id="answer1" class="answer" style="display: none">
+          Lorem ipsum dolor sit.
+        </p>
+        <ul class="tags">
+          <li>#html</li>
+          <li>#flexbox</li>
+          <li>#css</li>
+        </ul>
+      </article>
+      <article class="question-card2">
         <p>Lorem ipsum dolor sit.</p>
-        <button class="toggle-answer">Show Answer</button>
+        <button
+          class="toggle-answer"
+          aria-label="Show Answer"
+          aria-expanded="false"
+          aria-controls="answer2"
+        >
+          Show Answer
+        </button>
         <p class="answer" style="display: none">Lorem ipsum dolor sit.</p>
-      </div>
+      </article>
     </main>
 
     <footer>
-      <nav>
+      <nav aria-label="Main Navigation">
         <a href="index.html">Home</a>
         <a href="bookmarks.html" class="active">bookmarks</a>
         <a href="profile.html">Profile</a>

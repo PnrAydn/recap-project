@@ -46,9 +46,11 @@ main {
   display: flex;
   gap: 20px;
   justify-content: center;
+  list-style: none;
+  padding: 0;
 }
 
-.question-card .tags span {
+.question-card .tags li {
   background-color: cadetblue;
   padding: 10px 5px;
 }
